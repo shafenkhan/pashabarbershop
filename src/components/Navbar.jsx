@@ -21,6 +21,7 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Gallery', href: '#gallery' },
+    { name: 'Frisco', href: '#frisco', badge: 'Coming Soon', special: true },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -51,9 +52,16 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-gray-300 hover:text-royal-gold transition-colors font-medium"
+                className={`text-gray-300 hover:text-royal-gold transition-colors font-medium relative ${
+                  link.special ? 'text-royal-gold' : ''
+                }`}
               >
                 {link.name}
+                {link.badge && (
+                  <span className="absolute -top-2 -right-12 bg-turkish-red text-white text-xs px-2 py-0.5 rounded-full animate-pulse">
+                    {link.badge}
+                  </span>
+                )}
               </a>
             ))}
             <a
@@ -90,9 +98,16 @@ const Navbar = () => {
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="text-gray-300 hover:text-royal-gold transition-colors font-medium py-2"
+                  className={`text-gray-300 hover:text-royal-gold transition-colors font-medium py-2 flex items-center gap-2 ${
+                    link.special ? 'text-royal-gold' : ''
+                  }`}
                 >
                   {link.name}
+                  {link.badge && (
+                    <span className="bg-turkish-red text-white text-xs px-2 py-0.5 rounded-full animate-pulse">
+                      {link.badge}
+                    </span>
+                  )}
                 </a>
               ))}
               <a
