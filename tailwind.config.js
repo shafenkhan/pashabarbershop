@@ -1,5 +1,3 @@
-import { theme } from '@tailwindcss/postcss';
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [

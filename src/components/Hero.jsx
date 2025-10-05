@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaScissors } from 'react-icons/fa';
+import { GiScissors } from 'react-icons/gi';
 
 const Hero = () => {
   return (
@@ -23,7 +23,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.2 }}
           className="mb-6"
         >
-          <FaScissors className="text-royal-gold text-4xl md:text-5xl mx-auto mb-8" />
+          <GiScissors className="text-royal-gold text-4xl md:text-5xl mx-auto mb-8" />
         </motion.div>
 
         <motion.h1

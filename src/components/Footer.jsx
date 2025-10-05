@@ -1,4 +1,5 @@
-import { FaInstagram, FaFacebook, FaMapMarkerAlt, FaScissors } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaMapMarkerAlt } from 'react-icons/fa';
+import { GiScissors } from 'react-icons/gi';
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
           {/* Logo & Tagline */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <FaScissors className="text-royal-gold text-3xl" />
+              <GiScissors className="text-royal-gold text-3xl" />
               <h3 className="font-serif text-2xl font-bold text-royal-gold">
                 PASHA BARBERSHOP
               </h3>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaScissors, FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { GiScissors } from 'react-icons/gi';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,7 +39,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
-            <FaScissors className="text-royal-gold text-2xl group-hover:rotate-45 transition-transform duration-300" />
+            <GiScissors className="text-royal-gold text-2xl group-hover:rotate-45 transition-transform duration-300" />
             <span className="font-serif text-xl md:text-2xl font-bold text-royal-gold">
               PASHA
             </span>
