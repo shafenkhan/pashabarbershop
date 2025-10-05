@@ -13,7 +13,7 @@ const Experience = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=2670&auto=format&fit=crop')`,
+            backgroundImage: `url('/images/experience/pasha5.webp')`,
           }}
         />
         <div className="absolute inset-0 bg-black/75" />

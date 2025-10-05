@@ -9,7 +9,7 @@ const Hero = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=2574&auto=format&fit=crop')`,
+            backgroundImage: `url('/images/hero/pasha1.jpeg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80" />

@@ -28,7 +28,7 @@ const Booking = () => {
           </p>
 
           <p className="text-lg text-gray-400 mb-12">
-            Every man deserves his ritual. Reserve your time with Murat today.
+            Every man deserves his ritual. Reserve your time with our master barbers today.
           </p>
 
           <div className="space-y-6">

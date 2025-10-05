@@ -27,14 +27,14 @@ const About = () => {
             <div className="space-y-6 text-gray-300 leading-relaxed text-lg">
               <p>
                 At Pasha Barbershop, we honor the ancient art of Turkish grooming while embracing
-                contemporary style. Led by master barber Murat, each service is a ritual — a moment
-                to pause, restore, and elevate yourself.
+                contemporary style. Our master barbers — Murat, Kamil, Fadi, and Ozgur — bring decades
+                of combined experience, transforming each service into a ritual.
               </p>
 
               <p>
-                With years of experience rooted in authentic Turkish techniques, Murat brings precision,
-                passion, and pride to every cut, shave, and detail. This isn't just a barbershop.
-                It's a sanctuary for the modern man.
+                Rooted in authentic Turkish techniques and refined through years of mastery, our team
+                delivers precision, passion, and pride to every cut, shave, and detail. This isn't just
+                a barbershop. It's a sanctuary for the modern man.
               </p>
 
               <blockquote className="border-l-4 border-royal-gold pl-6 italic text-xl text-royal-gold/90 my-8">
@@ -42,7 +42,7 @@ const About = () => {
               </blockquote>
 
               <p className="text-sm uppercase tracking-widest text-royal-gold font-semibold">
-                — Murat, Master Barber
+                — The Pasha Team
               </p>
             </div>
           </motion.div>
@@ -56,7 +56,7 @@ const About = () => {
           >
             <div className="relative overflow-hidden rounded-sm shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=2574&auto=format&fit=crop"
+                src="/images/about/pasha2.jpeg"
                 alt="Master barber at work"
                 className="w-full h-[600px] object-cover transform hover:scale-105 transition-transform duration-700"
               />

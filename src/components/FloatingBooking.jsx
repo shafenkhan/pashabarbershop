@@ -34,7 +34,7 @@ const FloatingBooking = () => {
           aria-label="Book appointment"
         >
           <FaCalendarAlt className="text-2xl" />
-          <span className="hidden md:inline">Book with Murat</span>
+          <span className="hidden md:inline">Book Now</span>
         </motion.a>
       )}
     </>

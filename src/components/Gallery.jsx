@@ -87,29 +87,29 @@ const Gallery = () => {
         >
           <div className="overflow-hidden rounded-sm group">
             <img
-              src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=2670&auto=format&fit=crop"
-              alt="Barbershop interior"
+              src="/images/gallery/gallery-1.jpeg"
+              alt="Pasha Barbershop"
               className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
           </div>
           <div className="overflow-hidden rounded-sm group">
             <img
-              src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=2688&auto=format&fit=crop"
-              alt="Precision haircut"
+              src="/images/gallery/gallery-2.jpeg"
+              alt="Professional grooming"
               className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
           </div>
           <div className="overflow-hidden rounded-sm group">
             <img
-              src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=2574&auto=format&fit=crop"
-              alt="Grooming tools"
+              src="/images/gallery/gallery-3.webp"
+              alt="Expert barbering"
               className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
           </div>
           <div className="overflow-hidden rounded-sm group">
             <img
-              src="https://images.unsplash.com/photo-1621607512214-68297480165e?q=80&w=2574&auto=format&fit=crop"
-              alt="Barber at work"
+              src="/images/gallery/gallery-4.webp"
+              alt="Master craftsmanship"
               className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
           </div>
