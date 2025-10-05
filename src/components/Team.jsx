@@ -8,7 +8,7 @@ const barbers = [
     name: 'Murat',
     title: 'Master Barber & Owner',
     specialty: 'Traditional Turkish cuts & hot towel shaves',
-    image: null, // No image provided yet
+    image: '/images/team/murat.jpeg',
   },
   {
     name: 'Kamil',
@@ -26,7 +26,19 @@ const barbers = [
     name: 'Ozgur',
     title: 'Master Barber',
     specialty: 'Classic cuts & grooming expertise',
-    image: null, // No image provided yet
+    image: '/images/team/ozgur.jpeg',
+  },
+  {
+    name: 'Ferhat',
+    title: 'Master Barber',
+    specialty: 'Expert styling & grooming',
+    image: '/images/team/ferhat.jpeg',
+  },
+  {
+    name: 'RD',
+    title: 'Master Barber',
+    specialty: 'Professional cuts & detailing',
+    image: '/images/team/rd.jpeg',
   },
 ];
 
@@ -53,7 +65,7 @@ const Team = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {barbers.map((barber, index) => (
             <motion.div
               key={index}

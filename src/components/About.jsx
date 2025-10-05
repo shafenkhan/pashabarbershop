@@ -27,8 +27,8 @@ const About = () => {
             <div className="space-y-6 text-gray-300 leading-relaxed text-lg">
               <p>
                 At Pasha Barbershop, we honor the ancient art of Turkish grooming while embracing
-                contemporary style. Our master barbers — Murat, Kamil, Fadi, and Ozgur — bring decades
-                of combined experience, transforming each service into a ritual.
+                contemporary style. Our master barbers bring decades of combined experience,
+                transforming each service into a ritual.
               </p>
 
               <p>
