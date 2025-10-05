@@ -57,7 +57,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="https://pashabarbershop.booksy.com"
+              href="https://booksy.com/en-us/1061273_pasha-barbershop_barber-shop_36433_plano#ba_s=seo"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-royal-gold hover:bg-deep-gold text-charcoal font-semibold px-6 py-2 rounded-sm transition-all duration-300"
@@ -96,7 +96,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="https://pashabarbershop.booksy.com"
+                href="https://booksy.com/en-us/1061273_pasha-barbershop_barber-shop_36433_plano#ba_s=seo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-royal-gold hover:bg-deep-gold text-charcoal font-semibold px-6 py-3 rounded-sm transition-all duration-300 text-center"

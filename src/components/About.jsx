@@ -1,13 +1,14 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import TurkishDivider from './TurkishDivider';
 
 const About = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="about" className="py-24 bg-gradient-to-b from-black to-warm-brown/20">
+    <section id="about" className="py-24 bg-gradient-to-b from-black to-warm-brown/20 turkish-pattern">
       <div className="container mx-auto px-6 lg:px-20">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Text Content */}
@@ -17,6 +18,8 @@ const About = () => {
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
             transition={{ duration: 0.8 }}
           >
+            <TurkishDivider />
+
             <h2 className="font-serif text-5xl md:text-6xl font-bold text-royal-gold mb-6">
               Crafted with Tradition,<br />Styled for Today.
             </h2>

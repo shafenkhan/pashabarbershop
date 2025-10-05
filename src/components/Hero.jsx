@@ -13,6 +13,7 @@ const Hero = () => {
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80" />
+        <div className="absolute inset-0 turkish-pattern" />
       </div>
 
       {/* Content */}
@@ -39,10 +40,23 @@ const Hero = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.6 }}
-          className="text-xl md:text-2xl text-gray-300 mb-12 font-light tracking-wide"
+          className="text-xl md:text-2xl text-gray-300 mb-4 font-light tracking-wide"
         >
           Where old-world Turkish craftsmanship meets modern style.
         </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 0.7 }}
+          className="mb-12"
+        >
+          <div className="flex items-center justify-center gap-3 text-ottoman-gold">
+            <div className="w-8 h-px bg-ottoman-gold" />
+            <span className="text-sm uppercase tracking-widest font-serif">Plano, Texas</span>
+            <div className="w-8 h-px bg-ottoman-gold" />
+          </div>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -51,7 +65,7 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-6 justify-center items-center"
         >
           <a
-            href="https://pashabarbershop.booksy.com"
+            href="https://booksy.com/en-us/1061273_pasha-barbershop_barber-shop_36433_plano#ba_s=seo"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-royal-gold hover:bg-deep-gold text-charcoal font-semibold px-10 py-4 rounded-sm transition-all duration-300 transform hover:scale-105 text-lg tracking-wide"

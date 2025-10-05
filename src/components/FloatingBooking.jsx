@@ -22,7 +22,7 @@ const FloatingBooking = () => {
     <>
       {isVisible && (
         <motion.a
-          href="https://pashabarbershop.booksy.com"
+          href="https://booksy.com/en-us/1061273_pasha-barbershop_barber-shop_36433_plano#ba_s=seo"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ scale: 0, opacity: 0 }}
